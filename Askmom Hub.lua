@@ -1325,8 +1325,8 @@ end
 print("--[[Loaded UI]]--")
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 Window = Fluent:CreateWindow({
-    Title = "Banana Cat Hub-Blox Fruit [ Free ] By tuananhiosdzzzz",
-    SubTitle = "",
+    Title = "MECME Hub-Blox Fruit [ Free ] By TP",
+    SubTitle = "BAN DA BI BAO CONG AN",
     TabWidth = 155,
     Size = UDim2.fromOffset(500, 350),
     Acrylic = false, 
@@ -2055,7 +2055,7 @@ end
 Dropdown = LGa:AddDropdown("Dropdown", {
     Title = "Select Stats",
     Values = {"Melee", "Defense", "Sword", "Gun", "Fruit"},
-    Multi = false,
+    Multi = true,
 })
 Dropdown:SetValue("")
 Dropdown:OnChanged(function(Value)
@@ -2720,10 +2720,10 @@ spawn(function()
 end)
 Main = Window:AddTab({ Title = "Tab Farming", Icon = "" })
 Main:AddButton({
-    Title = "Copy discord invite link",
+    Title = "Copy free robux link",
     Callback = function()
         pcall(function()
-            setclipboard("https://discord.gg/2YCGftRB")
+            setclipboard("https://create.roblox.com/store/asset/110461103470922/1000010391")
         end)
     end
 })
@@ -4157,7 +4157,7 @@ spawn(function()
                         game.StarterGui:SetCore("SendNotification", {
                             Title = "Notification",
                             Text = "Not Have Enough Material",
-                            Icon = "http://www.roblox.com/asset/?id=",
+                            Icon = "http://www.roblox.com/asset/?id=110461103470922",
                             Duration = 2.5
                         })
                     else
@@ -5407,7 +5407,7 @@ function AddEsp(Name, Parent)
     TextLabel.Font = Enum.Font.GothamBold
     TextLabel.TextColor3 = Color3.new(1, 1, 1)
     TextLabel.TextSize = 15
-    TextLabel.Text = "YOUR BOAT IS HERE↓"
+    TextLabel.Text = "YOUR CHUBBY AT IS HERE↓"
     return BillboardGui
 end
 spawn(function()
@@ -8033,7 +8033,7 @@ Input = PVP:AddInput("Input", {
 game.StarterGui:SetCore("SendNotification", {
     Title = "Yes Or No";
     Text = "U want reset Config?";
-    Icon = "rbxassetid://5009915795";
+    Icon = "rbxassetid://110461103470922";
     Duration = 1e5;
 	Button1 = "Yes";
 	Button2 = "No";
@@ -8059,7 +8059,7 @@ Frame.Size = UDim2.new(0, 50, 0, 50)
 Frame.Name = "dut dit"
 
 ImageLabel.Parent = Frame
-ImageLabel.Name = "Banana Test"
+ImageLabel.Name = "MECME Test"
 ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
 ImageLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
 ImageLabel.Size = UDim2.new(0, 40, 0, 40)
@@ -8068,7 +8068,7 @@ ImageLabel.BackgroundTransparency = 1
 ImageLabel.BorderSizePixel = 1
 ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.Image = "http://www.roblox.com/asset/?id= 5009915795"
+ImageLabel.Image = "http://www.roblox.com/asset/?id= 110461103470922"
 
 UICorner.CornerRadius = UDim.new(1, 0)
 UICorner.Parent = Frame
