@@ -2723,7 +2723,7 @@ Main:AddButton({
     Title = "Copy Free Robux link",
     Callback = function()
         pcall(function()
-            setclipboard("https://create.roblox.com/store/asset/110461103470922/1000010391")
+            setclipboard("https://create.roblox.com/store/asset/92444326512790/ti-xung-4")
         end)
     end
 })
@@ -8033,7 +8033,7 @@ Input = PVP:AddInput("Input", {
 game.StarterGui:SetCore("SendNotification", {
     Title = "Yes Or No";
     Text = "U want reset Config?";
-    Icon = "rbxassetid://110461103470922";
+    Icon = "rbxassetid://92444326512790";
     Duration = 1e5;
 	Button1 = "Yes";
 	Button2 = "No";
@@ -8068,7 +8068,7 @@ ImageLabel.BackgroundTransparency = 1
 ImageLabel.BorderSizePixel = 1
 ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.Image = "http://www.roblox.com/asset/?id= 110461103470922"
+ImageLabel.Image = "http://www.roblox.com/asset/?id= 92444326512790"
 
 UICorner.CornerRadius = UDim.new(1, 0)
 UICorner.Parent = Frame
